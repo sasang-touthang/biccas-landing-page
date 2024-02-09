@@ -48,7 +48,7 @@ function Paywall({ title, subtitle, price, features, button }) {
           ))}
         </ul>
         <button
-          className={`w-[8rem] h-[2.5rem] text-[1.125rem] font-semibold font_inter xl:w-[16.25rem] xl:h-[4rem]  rounded-[1.25rem] box_shadow ${
+          className={`w-[8rem] h-[2.5rem] text-[1rem] md:text-[1.125rem] font-semibold font_inter xl:w-[16.25rem] xl:h-[4rem]  rounded-[1.25rem] box_shadow ${
             title === "Pro"
               ? "bg-[#54BD95] text-white"
               : "bg-white text-[#54BD95]"
