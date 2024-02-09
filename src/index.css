@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Vast+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Vast+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Vast+Shadow&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.gradient_background {
+  background-color: white;
+  background-image: linear-gradient(
+    160deg,
+    rgba(84, 190, 150, 0.3),
+    rgba(255, 0, 0, 0),
+    rgba(84, 190, 150, 0.3)
+  );
+}
+
+.font_inter {
+  font-family: "Inter";
+}
+
+.mobile_nav_bg_color {
+  background-color: #54be96;
+}
+
+.side_padding {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.box_shadow {
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.transition_mobile {
+  transition: 0.5s ease-in;
+}
+
+.border {
+  border: 2px solid #a6a6a6;
+}
